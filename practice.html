@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+// var arr=[3,2,1,6,5,4,9,8,7]
+// var  add=false
+// while(!add){
+//     add=true;
+//     for(var i=0;i<arr.length;i++){
+//         if(arr[i-1]>arr[i]){
+//             add=false;
+//             var temp;
+//             temp=arr[i-1];
+//             arr[i-1]=arr[i]
+//             arr[i]=temp
+//         }
+//     }
+// }
+// document.write(arr)
+
+///swappinng
+// var a=10;
+// var b=20;
+// a=a+b
+// b=a-b
+// a=a-b
+//a=(a+b)-(b=a)
+
+// var temp=a;
+// a=b
+// b=temp
+
+// document.write(a+"<br>"+b)
+
+// var number=parseInt(prompt("enter the number"))
+// var fact=1
+// for(var i=1;i<=number;i++){
+//     fact=fact*i
+// }
+// document.write(fact)
+
+
+// var number=parseInt(prompt("enter the number"))
+// var add=number%2
+// if(add==0){
+//     document.write("even number")
+// }
+// else{
+//     document.write("odd number") 
+// }
+
+// var arr=[1,1,1,1,2,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9,9]
+// var wwe=[]
+// for(var i=0;i<arr.length;i++){
+//     if(wwe.indexOf(arr[i])==-1){
+//         wwe.push(arr[i])
+//     }
+// }
+// console.log(wwe)
+
+
+// var number=parseInt(prompt("enter the number"))
+// for(i=0;i<number;i++){
+//     for(j=1;j<=i;j++){
+//     document.write("*")
+// }
+// document.write("<br>")
+// }
+
+
+// let  arr=[1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,7]
+// function as(arr){
+//     var b=[]
+//     for(var i=0;i<arr.length;i++){
+//        if(b.indexOf(arr[i])==-1) {
+//         b.push(arr[i])
+//        }
+//     }
+//     return b
+// }
+// document.write(as(arr))
+
+
+
+// let arr=[2,3,5,7,10,11,15,17,18,20,50,50]
+// sum=[0];
+// for( var i=0;i<arr.length;i++){
+//     if(arr[i]%5==0 && sum.indexOf(arr[i])==-1 ){
+//         sum.push(arr[i])
+//     }
+// }
+// document.write(sum)
+
+
+// var as=prompt("enter the character")
+// if(as=="a"||as=="e"||as=="i"||as=="o"||as=="u"){
+//     document.write("vowel")
+// }
+// else{document.write("consonent")}
+// var arr=[3,2,1,6,5,4,9,7,8,10]
+// var as=false;
+// while(!as){
+//     as=true
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i-1]>arr[i]){
+//         as=false
+//         var temp=arr[i-1]
+//         arr[i-1]=arr[i]
+//         arr[i]=temp
+//     }
+// }
+// }
+// document.write(arr)
+
+// var number=parseInt(prompt("enter the number"))
+// var isprime=true
+// for(var i=2;i<number;i++){
+//     if(number%i==0){
+//         isprime=false;
+//         break;
+//     }
+// }
+// if(isprime){
+//     document.write("prime number")
+// }
+// else{
+//     document.write("not prime number")
+// }
+
+
+
+// var arr=[1,20,5,0,4,0,5,1,0,550,44,5]
+// var max=arr[0]
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]<max){
+//         max=arr[i]
+//     }
+// }
+// document.write(max)
+
+// var a=10
+// var b=20
+// // a=a+b
+// // b=a-b
+// // a=a-b
+
+// // var temp=a
+// // a=b
+// // b=temp
+
+// a=(a+b)-(b=a)
+// document.write(a+"<br>"+b)
+
+// for(var i=0;i<=10;i++){
+//     for(var j=0;j<=10-i;j++){
+//     document.write("&nbsp")
+// }  
+// for(var k=0;k<=i;k ++){
+//     document.write("*") 
+// }
+// document.write("<br>") 
+// }
+
+
+// var arr=[20,10,5,1000]
+// var smallest=arr[0]
+// var secondsmallest=arr[1]
+// for( var i=0;i<arr.length;i++){
+//     if(arr[i]<smallest){
+//         smallest=arr[i]
+//     }
+//     if(arr[i]>smallest && arr[i]<secondsmallest){
+//        secondsmallest=arr[i]
+//     }
+// }
+// document.write(secondsmallest)
+
+// let arr = [12, 35, 1, 10, 34, 1]
+// var first=-1,second=-1
+// for( var i=0;i<=arr.length-1;i++){
+//     if(arr[i]>first){
+//         second=first
+//         first=arr[i]
+
+//     }
+//     else if(arr[i]>second && arr[i]!=first){
+//         second=arr[i]
+//     }
+// }
+// document.write(second)
+
+
+// var arr=[3,2,1,4,5,6,9,8,7]
+// var arr1=false;
+// while(!arr1){
+//     arr1=true;
+// for(var i=0;i<arr.length;i++){
+// if(arr[i-1]>arr[i]){
+//     arr1=false
+//     var temp=arr[i-1]
+//     arr[i-1]=arr[i]
+//     arr[i]=temp
+// }
+// }
+// }
+// document.write(arr)
+
+
+// var number=parseInt(prompt("enter the  number"))
+// for(i=0;i<=number;i++){
+//     for(j=0;j<=number-i;j++){
+//     document.write("&nbsp")
+// } 
+// for(k=0;k<=number;k++){
+//     document.write("#")
+// }
+// document.write("<br>")
+// }
+
+// function as(love){
+//     if(love){
+//         const name="safiruddin"
+//         let sname="ansari"
+//         document.write(`my first name is:${name}  and my second name  is ${sname}  ` )
+//     }
+//     //document.write(`my first name is:${name}  and my second name  is ${sname}  ` )
+// }
+// as(true)
+
+
+
+// var arr="safiruddin ansari"
+// var rev=""
+// for(var i=arr.length-1;i>=0;i--){
+//     rev=rev+arr[i]
+// }
+// document.write(rev)
+
+// var arr=[102,10,3050,4,60]
+// var max=arr[0]
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]<max){
+//         max=arr[i]
+//     }
+// }
+// document.write(max)
+
+// var arr=parseInt(prompt("enter the number"))
+// var isprime=true
+// for(var i=2;i<arr;i++){
+//     if(arr%i==0){
+//         isprime=false
+//         break
+//     }
+// }
+// if(isprime){
+//     document.write("prime number")
+// }
+// else{
+//     document.write("Not-prime number")
+// }
+//var a=10;b=20
+//var temp=a
+// a=b
+// b=temp
+
+
+//a=(a+b)-(b=a)
+
+// a=a+b
+// b=a-b
+// a=a-b
+//document.write(a+"<br>"+b)
+
+// var number=parseInt(prompt("enter the number"))
+// var fact=1;
+// for(var i=1;i<=number;i++){
+//    fact=fact*i
+// }
+// document.write(fact)
+
+// var number=parseInt(prompt("enter the number"))
+// var number1=number%2
+// if(number1==0){
+//    document.write("even number")
+// }
+// else{
+//    document.write("odd number")
+// }
+
+// var arr=[1,1,1,1,1,2,2,2,2,3,3,3,4,4,5,5,6,6,7,7,8,8]
+
+// var b=[]
+// for(var i=0;i<arr.length;i++){
+//    if(b.indexOf(arr[i])==-1){
+//       b.push(arr[i])
+//    }
+// }
+// document.write(b)
+
+// for(var i=0;i<=10;i++){
+//    for(var j=0;j<=10-i;j++){
+//       document.write("&nbsp")
+//    }
+//    for(var m=0;m<=i;m++){
+//       document.write("*")
+//    }
+//    document.write("<br>")
+// }
+
+
+// var as=prompt("enter the character")
+// if(as=="a"||as=="e"||as=="i"||as=="o"||as=="u"){
+//    document.write("vowel")
+// }
+// else{
+//    document.write("consonent")
+// }
+
+
+// var arr="ansari"
+// var rev=""
+// for(var i=arr.length-1;i>=0;i--){
+//    rev=rev+arr[i]
+// }
+// document.write(rev)
+// var as=parseInt(prompt("enter the number"))
+// var isprime=true;
+// for(var i=2;i<as;i++){
+//    if(as%i==0){
+//       isprime=false
+//       break
+//    }
+
+// }
+// if(isprime){
+//    document.write("prime number")
+// }
+// else{
+//    document.write("not a prime number")
+// }
+
+
+// var arr=[3,2,1,6,5,4,8,7,9]
+// var as=false;
+// while(!as){
+//    as=true
+//    for(var i=0;i<arr.length;i++){
+//       if(arr[i-1]>arr[i]){
+// as=false
+// var temp=arr[i-1]
+// arr[i-1]=arr[i]
+// arr[i]=temp
+//    }
+// }
+// }
+// document.write(arr)
+
+// var  arr=[10,90,50,55]
+// var smallest=arr[0]
+// var secondsmallest=arr[1]
+// for(var i=0;i<arr.length;i++){
+//    if(arr[i]<smallest){
+//       smallest=arr[i]
+//    }
+//    if(arr[i]>smallest &&arr[i]<secondsmallest){
+//       secondsmallest=arr[i]
+//    }
+// }
+//document.write(secondsmallest)
+
+// var a=10;
+//      b=20;
+//      a=a+b
+//      b=a-b
+//      a=a-b
+//      document.write(a+"<br>"+b)
+
+// var number=parseInt(prompt("enter the number"))
+// var fact=1
+// for(var i=1;i<=number;i++){
+//     fact=fact*i
+// }
+//      document.write(fact)
+
+// var a=10
+// var b=20
+// var tem=a
+// a=b
+// b=tem
+// a=a+b
+// b=a-b 
+// a=a-b
+//a=(a+b)-(b=a)
+
+// var num=parseInt(prompt("enter the number"))
+// var fact=1
+// for(var i=1;i<=num;i++){
+//   var fact=fact*i
+// }
+// document.write(`factorial is: ${fact}`)
+
+// var arr=[1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,5,5,5]
+// var b=[];
+// for(var i=0;i<arr.length;i++){
+//   if(b.indexOf(arr[i])==-1){
+//     b.push(arr[i]);
+//   }
+// }
+// document.write(b)
+
+
+// var num=parseInt(prompt("number"))
+// var fact=1;
+// for(var i=1;i<=num;i++){
+//   fact=fact*i
+// }
+// document.write(fact)
+
+// var arr=parseInt(prompt("number"))
+// var ass=arr%2
+// if (ass!= 0 ){
+//   alert('odd')
+// }else{
+//   alert('even')
+// }
+
+
+// var i=1;
+// for(i=1;i<=10;i++){
+//   for(var j=1;j<=10-j;j++){
+//     document.write("*")
+//   }
+//   document.write("<br>")
+// }
+// var b=parseInt(prompt("number"))
+// for(var i=1;i<=b;i++){
+//   for(var j=1;j<=i;j++){
+// document.write("*")
+//   }
+//   document.write("<br>")
+// }
+
+
+// var as=prompt("enter the character")
+// if(as=="a"||as=="e"||as=="i"||as=="o"||as=="u"){
+//   document.write("input character is vowel")
+// }
+// else{
+//   document.write("input character is consonent")
+// }
+
+// var arr=["s","a","f","i","r","u","d","d","i","n"]
+// var arr1=[]
+// for(var i=arr.length-1;i>=0;i--){
+//   arr1.push(arr[i])
+// }
+// document.write(arr1)
+
+
+// var arr=["s","a","f","i","r","u","d","d","i","n"]
+// var arr1=[]
+// for(var i=arr.length-1;i>=0;i--){
+//   arr1.push(arr[i])
+// }
+// document.write(arr1)
+
+
+// var as=parseInt(prompt("enter the number"))
+// var isprime=true
+// for(var i=2;i<as;i++){
+//   if((as%i)==0){
+//     isprime=false;
+//   break
+//   }
+// }
+// if(isprime)
+// {
+//   document.write("prime number")
+// }
+// else{
+//   document.write("not prime numner")
+// }
+
+// var arr=parseInt(prompt("number"))
+// var isprime=true;
+// for(var i=2;i>arr;i++){
+//   if((arr%i)==0){
+//     isprime=false
+//   break
+//   }
+// }
+// if (isprime){
+//   document.write("prime");
+// }else{
+//   document.write("not prime number")
+// }
+
+
+// var arr=parseInt(prompt("number"))
+// var isprime=true;
+// for( var i=2;i<arr;i++){
+//   if(arr%i==0){
+//     isprime=false;
+//     break
+//   }
+// }
+// if(isprime){
+//   document.write("prime")
+// }
+// else{
+//   document.write("not prime number")
+// }
+
+
+// var arr=[10,20,30,40,50,60,100,70,80,90]
+// var max=arr[0]
+// for(var i=0;i<arr.length;i++){
+// if(arr[i]<max){
+//   //max=arr[i];
+//   max=Math.max(arr[i]);
+// }
+  
+// }
+// document.write(max)
+
+
+// var arr=[10,20,1000000,30,40,1,50,60,70]
+// var arr1=arr[0]
+// for(var i=0;i<arr.length;i++){
+//   if(arr[i]<arr1){
+//     arr1=arr[i]
+//   }
+// }
+// document.write(arr1)
+
+
+// function a(love){
+//   if(love){
+//     let fname="safiruddin"
+//   let lname="ansari"
+//   document.write(fname+lname+"<br/>")
+// }
+
+// document.write(fname+lname)
+// }
+// a(true)
+
+
+// function a(love){
+//   if(love){
+//    let fname="safiruddin"
+//    let lname="ansari"
+//    document.write(`${fname}and ${lname}<br/>`)
+//   }
+//   document.write(`${fname}and ${lname}`)
+// }
+// a(true)
+
+// for(var i=0;i<=20;i++){
+//   for(var j=0;j<=20-i;j++){
+//    document.write("&nbsp") 
+//   }
+//   for(var m=0;m<=i;m++){
+//     document.write("*")
+//   }
+//   document.writeln("<br>")
+// }
+var arr=["safiruddin","ansari","naushad","ansari","sohel","deepak"]
+// arr.sort()
+// document.write(arr+"<br/>")
+// arr.reverse()
+// document.write(arr+"<br/>")
+// arr.pop()
+// document.write(arr+"<br/>")
+// arr.push("chand")
+
+
+// arr.shift()
+// document.write(arr+"<br/>")
+// arr.unshift("sohel")
+// document.write(arr+"<br/>")
+// var b=arr.concat(["sahil"])
+// document.write(b)
+// var d=arr.join(b)
+// console.log(d)
+// var b=arr.slice(1,5)
+ //arr.splice(2,4,"khan","rehan")
+// document.write(arr)
+// var b=arr.indexOf("naushad")
+//console.log(b)
+//document.write(arr+"<br>")
+// var b=arr.includes("naushad")
+//document.write(b)
+
+// var arr=[19,20,30,40]
+// var arr1=arr.every(safi)
+// function safi(age){
+//     return age>18;
+// }
+
+// console.log(arr1)
+
+// var arr=[10,20,30,40,5,60,50,]
+// var arr1=arr.filter(safi)
+// function safi(age){
+//   return age=18
+// }
+// console.log(arr1)
+
+
+// var arr=["safiruddin","ansari","sahjad","ansari"]
+//  var b=arr.fill("safiruddin ansari")
+// console.log(b);
+
+// var arr=[10,20,30,40,50,60,70,80,90,100]
+// var b=arr.map(safi)
+// function safi(arr1){
+//     return arr1*10
+// }
+// console.log(b)
+
+// var arr=[{fname:"safiruddin",lname:"sing"},
+// {fname:"safiruddin",lname:"sing"},
+// {fname:"safiruddin",lname:"ansari"}
+//         ]
+
+// var arr1=arr.filter(sad=>sad.lname=="sing")
+//console.log(arr1)
+// var b=arr.map(safi)
+// function safi(x){
+//     return x.lname
+// }
+// b.pop()
+// console.log(b)
+
+// const obj=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         let rollno=[1,2,3,4,5];
+//         resolve(rollno);
+//         reject("error msg")
+//     },3000)
+// })
+// obj.then((rollno)=>{
+//     console.log(rollno)
+// }).catch((error)=>{
+//     console.log(error)
+// })
+
+// var arr="my name is safiruddin ansari"
+// console.log(arr.length)
+// console.log(arr.indexOf(""))
+
+// var a=10;
+// var b=20
+// //a=(a+b)-(b=a)
+// // a=a+b
+// // b=a-b
+// // a=a-b
+// document.write(a+"<br/>"+b)
+
+// var number=parseInt(prompt("number"))
+// var fact=1
+// for(var i=1;i<=number;i++){
+//     fact=fact*i
+   
+// }
+// document.write(fact)
+
+// var number=parseInt(prompt('number'))
+// var fact=1
+// for(var i=1;i<=number;i++){
+//     fact=fact*i
+// }
+// document.write(fact)
+
+// var number=parseInt(prompt("enter the number"))
+// var as=number%2
+// if(as==0){
+//     document.write("even")
+// }
+// else{
+//     document.write("odd")
+// }
+
+// var arr=[1,1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9,9,9]
+// var arr1=[]
+// for(var i=0;i<=arr.length;i++){
+//     if(arr1.indexOf(arr[i])==-1){
+//         arr1.push(arr[i])
+//     }
+// }
+// document.write(arr1)
+
+//  for(var i=0;i<=10;i++){
+//     for(var j=0;j<=i;j++){
+//         document.write("*");
+//     }
+//     document.write("<br/>");  //to move to next line after each row is printed in nested loop
+//  }
+
+// var arr=[1,2,3,4,5,6]
+// var rev=""
+// for(var i=arr.length-1;i>=0;i--){
+//     rev+=arr[i]+", " //concatenating the elements of array with comma separated
+// }
+
+// document.write(rev)
+
+// var arr=[1,2,3,4,5,6]
+// var rev=""
+// for(var i=arr.length-1;i>=0;i--){
+//     rev=rev+arr[i]
+// }
+// document.write(rev)
+
+// var number=parseInt(prompt("number"))
+// var isprime=true;
+// for(var i=2;i<number;i++){
+//     isprime=true
+//     if(number%i==0){
+//         isprime=false
+//         break;
+//     }
+// }
+// if(isprime){
+//     document.write("prime number")
+// }
+// else{
+//     document.write("not a prime number")
+// }
+
+//   var number=parseInt(prompt("enter the number"))
+//   var isprime=true;
+//   for(var i=2;i<number;i++){
+//     if(number%i==0){
+//         isprime=false;
+//         break
+//     }
+
+//   }
+// if(isprime){
+//     document.write("prime number")
+// }
+// else{
+//     document.write("not a prime number")
+// }
+// var arr=[10,20,3,0,50,80,60,102,300,500,25]
+// var max=arr[0]
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]<max){
+//         max=arr[i];
+//     }
+// }
+// document.write(max)
+
+// var arr=[10,20,30,500,800,400,600,400,8000,500,500,400]
+// var max=arr[0]
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]<max){
+//         max=arr[i]
+//     }
+// }
+// document.write(max)
+
+// var arr=[2,1,3,4,5,8,7,6,8]
+// var add=false
+// while(!add){
+//     add=true
+//     for(var i=0;i<arr.length;i++){
+//     if(arr[i-1]>arr[i]){
+//         add=false;
+       
+//     }
+//     var temp=arr[i-1]
+//         arr[i-1]=arr[i]
+//         arr[i]=temp
+// }
+// }
+// document.write(arr)
+
+
+// var arr=[1,5,4,2,3,6,7,8,5,9]
+// var done=false
+// while(!done){
+//     done=true
+//     for(var i=0;i<arr.length;i++){
+//         if(arr[i-1]>arr[i]){
+//             done=false
+
+//             var temp=arr[i-1]
+//             arr[i-1]=arr[i]
+//             arr[i]=temp
+//         }
+//     }
+// }
+// document.write(arr)
+
+
+
+// let person1=person.filter((i)=>{
+//     return i.age
+// })
+
+
+// let arr=[{name:"safiruddin",age:23,adress:"belwa"}]
+// let arr1=arr.map(x=>{return [x.name,x.age,x.adress]})
+
+// console.log(arr1)
+
+
+// let person=[
+//         {name:"safiruddin" ,age:22},
+//         {name:"ansari" ,age:23},
+//         {name:"deepak" ,age:24},
+//         {name:"deepak" ,age:24} ]
+// let person1=person.filter((x)=>{return (x.age)>22})
+
+// var arr=[3,2,1,6,5,4,,9,8,7]
+// var done=false
+// while(!done){
+//     done=true;
+//     for(var i=0;i<=arr.length;i++){
+//         if(arr[i-1]>arr[i]) {
+//             done=false
+//             var temp=arr[i-1]
+//             arr[i-1]=arr[i]
+//             arr[i]=temp
+
+//         }
+    
+
+//     }
+// }
+// document.write(arr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

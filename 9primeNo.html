@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const number=parseInt(prompt("enter the Number"))
+        let isprime=true;
+            for(let i=2;i< number;i++){
+                if(number%i==0){
+                    isprime=false;
+                    break;
+                }
+            }
+            if(isprime){ 
+                console.log(`${number} :is a prime number`);
+            }
+            else{
+                console.log(`${number} :is not a prime number`)
+            }
+
+        // var number=parseInt(prompt("enter the number"))
+        // var isprime=true;
+        // for(var i=2;i<number;i++){
+        //     if(number%i==0){
+        //         isprime=false;
+        //         break;
+        //     }
+        // }
+        // if(isprime){
+        //     document.write(number+"given number is prime")
+        // }
+        // else{
+        //     document.write(number+"given number is not a prime number")
+        // }
+
+       
+    </script> 
+</body>
+</html>
